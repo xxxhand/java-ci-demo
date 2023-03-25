@@ -12,7 +12,7 @@ jobs:
       matrix:
         os: [windows-latest]
         java-version: [17]
-        gradle-version: [8.x]
+        gradle-version: [8.0.2]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Git checkout
