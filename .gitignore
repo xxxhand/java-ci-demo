@@ -4,3 +4,4 @@ gradle
 .idea
 # Ignore Gradle build output directory
 app/build
+gradlew*
